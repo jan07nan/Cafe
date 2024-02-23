@@ -1,0 +1,107 @@
+.orderbar{
+    display: flex;
+    flex-direction: row;
+}
+.order-name{
+ width: 280px;
+ height: 30px;
+ margin-left: 15px;
+ margin-top: -5px;
+}
+.o-name{
+    margin-top: 15px;
+    font-size: 19px;
+    font-weight: bold ;
+}
+.o-id{
+    margin-top: -40px;
+    font-size: 15px;
+    color: gray;
+}
+.notify{
+    width: 30px;
+    height: 30px;
+    margin-top: 22px;
+}
+.t-name{
+    margin-left:15px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.card{
+    width: 300px ;
+    height: 120px;
+    margin-left: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.checkout{
+    display: flex;
+    flex-direction: row;
+}
+.subtotal{
+    width: 280px;
+    height: 40px;
+    margin-left: 15px;
+}
+.amount{
+    width: 180px;
+    height: 40px;
+}
+.sub-total{
+    font-size: 13px;
+    font-weight: 700;
+}
+.tax{
+    font-size: 11px;
+    margin-top: -5px;
+}
+.rs{
+    font-size: 13px;
+}
+.rs-tax{
+    font-size: 12px;
+    margin-top: -5px;
+
+}
+.line{
+    color: gray;
+    margin-left: 15px;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+.tot{
+    width: 280px;
+    font-size: 13px;
+}
+.total-rs{
+    width: 180px;
+    font-size: 13px;
+}
+.proceed{
+    width: 300px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 7px;
+    border-radius: 10px;
+    border:1px solid #EF1A69;
+    background-color: #EF1A69;
+    color: white;
+    font-weight: 700;
+}
+.cancel{
+    width: 300px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 7px;
+    border-radius: 10px;
+    border:2px solid #EF1A69;
+    background-color: white;
+    color: #EF1A69;
+    font-weight: 700;
+}

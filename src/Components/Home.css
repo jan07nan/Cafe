@@ -1,0 +1,19 @@
+.main-div{
+    display: flex;
+    flex-direction: row;
+}
+.div1{
+    width:68px;
+    background-color: #F7F7F7;
+}
+.div2{
+    width:969px;
+    background-color:#F7F7F7;
+    ;
+}
+.div3{
+    width:331px;
+    height:590px;
+    background-color: white;
+    border-radius: 15px;
+}

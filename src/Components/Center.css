@@ -1,0 +1,76 @@
+.namebar{
+    display: flex;
+    flex-direction: row;
+}
+.center-name{
+    width:300px;
+    margin-left: 15px;
+}
+.shop-title{
+    font-size: 15px;
+    font-weight: 700;
+}
+.date{
+    font-size: 14px;
+    color: grey;
+    margin-top: -5px;
+}
+.search{
+    width:600px;
+    display: flex;
+    flex-direction: row;
+}
+.search-img-btn{
+    width: 30px;
+    height: 20px;
+    border: none ;
+    margin-left: -45px;
+    margin-top: 25px;
+    background-color: white;
+}
+.search-box{
+    width: 450px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: white;
+}
+.search-icon{
+    color: #EF1A69;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 3px;
+}
+.list-items{
+    margin-top: 10px;
+    background-color: #f8f5f5;
+  overflow: hidden;
+}
+.list-items a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #faf5f5;
+    cursor: pointer;
+    float: left;
+  display: block;
+  color:Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: line;
+  font-size: 17px;
+  border-bottom: 1px solid transparent;
+}
+.list-items a:hover {
+    color: #EF1A69;
+    border-bottom: 3px solid #EF1A69;
+  }
+  .list-items a:active {
+    border-bottom: 3px solid #EF1A69;
+}
+.head-title{
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}

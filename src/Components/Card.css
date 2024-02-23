@@ -1,0 +1,79 @@
+.name{
+    font-size:14px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.cost{
+    font-size: 13px;
+    color: grey;
+    margin-top: -7px;
+    margin-left: 5px;
+}
+.name-cost-qty{
+    display: flex;
+    flex-direction: row;
+}
+.name-cost{
+    width:180px;
+}
+.qty{
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+}
+.inc{
+    width: 40px;
+    height: 30px;
+    margin: 10px;
+    font-weight: 500;
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.num{
+    width: 40px;
+    height: 30px;
+    margin: 10px;
+    color: #EF1A69;
+    font-weight: 800;
+    background-color: white;
+    margin-right: -2px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.dec{
+    width: 38px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: -3px;
+    color: grey;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.inputbox{
+    display: flex;
+    flex-direction: row;
+
+}
+.txtbox{
+    width: 200px;
+    height: 25px;
+    margin-left: 5px;
+    background-color: #F7F7F7;
+    border: none;
+}
+.delete-btn{
+    width: 34px;
+    height: 29px;
+    margin-top: -5px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: 1px solid #E56E92;
+    background-color: #FFC3DA;
+} 
+.img-delete{
+    margin-left: -5px;
+}

@@ -1,0 +1,28 @@
+.card-tag{
+    height: 100px;
+    width:300px;
+    background-color: white;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: 10px;
+}
+.imgs{
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.imgs-food{
+    height: 40px;
+    width: 60px;
+    text-align: center;
+}
+.foood{
+    margin-left: 10px;
+}
+.food-name{
+    font-weight: 700;
+}
+.food-cost{
+    color: gray;
+}
