@@ -1,28 +1,10 @@
-.orderbar{
-    display: flex;
-    flex-direction: row;
-}
-.order-name{
- width: 280px;
- height: 30px;
- margin-left: 15px;
- margin-top: -5px;
-}
 .o-name{
     margin-top: 15px;
     font-size: 19px;
     font-weight: bold ;
 }
-.o-id{
-    margin-top: -40px;
-    font-size: 15px;
-    color: gray;
-}
-.notify{
-    width: 30px;
-    height: 30px;
-    margin-top: 22px;
-}
+
+
 .t-name{
     margin-left:15px;
     font-size: 15px;

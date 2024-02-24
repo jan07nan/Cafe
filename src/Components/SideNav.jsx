@@ -1,46 +1,63 @@
-import React from "react";
-import '../Components/SideNav.css';
-import homelogo from '../Images/homelogo.png';
-import sale from '../Images/sale.png';
-import statistic from '../Images/statistic.png';
-import wallet from '../Images/wallet.png';
-import setting from '../Images/setting.png';
-
+import { IoSettingsSharp } from "react-icons/io5";
 
 function SideNav() {
   return (
-    <div className="Fullpage">
-      <div className="colorbar">
-          <button className="btn1">
-            <a href="#">J</a>
-          </button> <br></br>
-
-          <button className="btn2">
-          <img src={homelogo} alt="homelogo"/><br></br>
-            <a href="#">Home</a>
-          </button> <br></br>
-
-          <button className="btn3">
-          <img src={sale} alt="img2"/><br></br>
-            <a href="#">Sale</a>
-          </button> <br></br>
-
-          <button className="btn4">
-          <img src={statistic} alt="img3"/><br></br>
-            <a href="#">Statistic</a>
-          </button> <br></br>
-
-          <button className="btn4">
-          <img src={wallet} alt="img4"/><br></br>
-            <a href="#">Wallet</a>
-          </button> <br></br>
-
-          <button className="btn4">
-          <img src={setting} alt="img5"/><br></br>
-            <a href="#">Setting</a>
-          </button> <br></br>
-      </div>
+    <div className="bg-[#320617] p-1 py-3 rounded-xl h-full">
+      <button className="flex text-white justify-center items-center font-md m-auto rounded-md bg-[#6F042D] flex-col w-10 h-10 mb-10">
+        <a className={"text-xs"}>J</a>
+      </button>
+      <SideNavButton
+        path={"/"}
+        isSelected={true}
+        label={"Home"}
+        Icon={IoSettingsSharp}
+      />
+      <SideNavButton
+        path={"/"}
+        isSelected={false}
+        label={"Sale"}
+        Icon={IoSettingsSharp}
+      />
+      <SideNavButton
+        path={"/"}
+        isSelected={false}
+        label={"Statistic"}
+        Icon={IoSettingsSharp}
+      />
+      <SideNavButton
+        path={"/"}
+        isSelected={false}
+        label={"Wallet"}
+        Icon={IoSettingsSharp}
+      />
+      <SideNavButton
+        path={"/"}
+        isSelected={false}
+        label={"Setting"}
+        Icon={IoSettingsSharp}
+      />
     </div>
+  );
+}
+
+// eslint-disable-next-line react/prop-types
+function SideNavButton({ Icon, path, label, isSelected }) {
+  return (
+    <>
+      <button
+        className={
+          isSelected
+            ? "flex text-white justify-center items-center font-sm m-3 rounded-md bg-[#6F042D] flex-col w-12 h-12"
+            : "flex  justify-center text-gray-300 items-center font-sm m-3  flex-col w-12 h-12"
+        }
+      >
+        <Icon />
+
+        <a className={"text-xs"} href={path}>
+          {label}
+        </a>
+      </button>
+    </>
   );
 }
 
